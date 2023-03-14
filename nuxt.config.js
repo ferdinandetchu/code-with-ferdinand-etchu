@@ -4,7 +4,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/code-with-ferdinand-etchu/'
+    base: '/code-with-ferdinand-etchu/dist/'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head

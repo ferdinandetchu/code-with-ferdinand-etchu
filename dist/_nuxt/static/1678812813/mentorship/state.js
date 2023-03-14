@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fcode-with-ferdinand-etchu\u002Fdist\u002F_nuxt\u002Fstatic\u002F1678812813",layout:"default",error:a,serverRendered:true,routePath:"\u002Fmentorship",config:{_app:{basePath:"\u002Fcode-with-ferdinand-etchu\u002Fdist\u002F",assetsPath:"\u002Fcode-with-ferdinand-etchu\u002Fdist\u002F_nuxt\u002F",cdnURL:a}}}}(null));
