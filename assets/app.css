@@ -1,0 +1,145 @@
+/* change vuetify defualt classes here */
+
+/* Handel media queries here for vuetifys */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row{
+        margin: 0px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .row{
+        margin: 0px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+
+
+/* my custome css */
+.fe-bg{
+	background-color: black !important;
+}
+.fe-body-width{
+	max-width: 1300px !important;
+}
+.fe-hero-bg{
+	background: rgb(2,0,36);
+	background: linear-gradient(14deg, rgba(2, 0, 36, 0.726) 30%, rgba(0, 213, 255, 0.644) 100%);
+	background-size: 400% 400%;
+	animation: animate_bg 60s ease infinite;
+}
+.fe-skill-bg {
+	background: linear-gradient(14deg, rgb(0, 0, 0) 30%, rgb(114, 114, 114) 100%);
+	background-size: 400% 400%;
+	animation: animate_bg 60s ease infinite;
+}
+@keyframes animate_bg {
+	0% {
+		background-position: 50% 100%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 50% 100%;
+	}
+}
+
+.white-glassmorphism {
+  background: rgba(0, 0, 0, 0.7);
+  /* border-radius: 16px; */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    /* background-color: #fff; */
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    /* background-color: #fff; */
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    background-color: #fff;
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* Mentorship hero */
+.fe-hero-video {
+	position: absolute !important;
+	width: 100vw;
+	height: 90vh;
+}
+
+.fe-video-overlay {
+	height: 90vh;
+}
+
+
